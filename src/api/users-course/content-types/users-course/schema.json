@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_courses",
+  "info": {
+    "singularName": "users-course",
+    "pluralName": "users-courses",
+    "displayName": "users_course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course_title": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "times_quiz": {
+      "type": "json"
+    }
+  }
+}
